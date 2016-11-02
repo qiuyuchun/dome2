@@ -1,0 +1,109 @@
+
+
+
+	<div class="container" id='container'>
+		<header class="header">
+			<span class='left'><img src="img/shenghuo.png" alt=""></span>
+			<h1 class='h1'>生活</h1>
+		</header>
+		<main class="main" id='main' shenghuo-s>
+			<div class="scroller">
+				<div class='swiper-container'>
+					<ul class='swiper-wrapper'>
+						<li class='swiper-slide'><img src="img/shpic.png"></li>
+						<li class='swiper-slide'><img src="img/shpic.png"></li>
+					</ul>
+					<div class='pagination'>
+						<span class='pagination-swiper-switch swiper-active-switch'></span>
+						<span class='pagination-swiper-switch'></span>
+					</div>
+				</div>
+				<nav class='sh_nav'>
+					<dl class='shenghuo_chongzhi' ui-sref='shenghuo_chongzhi'>
+						<dt><img src="img/sh1.png"></dt>
+						<dd>手机充值</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh2.png"></dt>
+						<dd>转账</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh3.png"></dt>
+						<dd>城市服务</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh4.png"></dt>
+						<dd>余额查询</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh5.png"></dt>
+						<dd>滴滴打车</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh6.png"></dt>
+						<dd>旅行查询</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh7.png"></dt>
+						<dd>机票车票</dd>
+					</dl>
+					<dl class='shenghuo_game' ui-sref='mine_game'>
+						<dt><img src="img/sh8.png"></dt>
+						<dd>游戏充值</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh9.png"></dt>
+						<dd>穿衣指数</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh10.png"></dt>
+						<dd>医疗指导</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh11.png"></dt>
+						<dd>物流查询</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/sh12.png"></dt>
+						<dd>数据传输</dd>
+					</dl>
+				
+				</nav>
+				<div class='img'>
+					<img src="img/sh13.png">
+				</div>
+			</div>		
+		</main>
+		<footer class="footer">
+			<a ui-sref="index"><br>首页</a>
+			<a ui-sref="licai"><br>理财铺</a>
+			<a ui-sref="shenghuo" class='on'><br>生活</a>
+			<a ui-sref="mine"><br>我的</a>
+		</footer>
+	</div>
+
+
+	<!-- <script>
+		document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+'px';
+		//局部滚动
+		var mainScroll=new IScroll('#main');
+		//图片轮播  继承首页图片轮播的样式和js
+		var swiper=new Swiper('.swiper-container',{
+			pagination:'.pagination',
+			autoplay:3000,
+			loop:true
+		});
+		$('.footer').on('tap','a',function(){
+			$(this).addClass('on').siblings().removeClass('on');
+		})
+		$('.shenghuo_game').on('tap',function(){
+			location.href='html/mine_game.html';
+		})
+		
+		$('.shenghuo_chongzhi').on('tap',function(){
+			location.href='html/shenghuo_chongzhi.html';
+		})
+	
+	</script>
+	
+	 -->

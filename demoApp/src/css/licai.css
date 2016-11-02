@@ -1,0 +1,139 @@
+
+.main{
+  background: #FFF;
+}
+.nav_licai {
+  height: .68rem;
+  line-height: .68rem;
+  display: -webkit-flex;
+  background: #59B3B5;
+  color: #fff;
+  position: relative; }
+
+.nav_licai a {
+  -webkit-flex: 1;
+  text-align: center;
+  color: #fff;
+  font-size: .34rem; }
+
+.line {
+  width: 33.33%;
+  height: .08rem;
+  background: #F29700;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.main {
+  width: 100%;
+  -webkit-flex: 1;
+  overflow: hidden;
+  position: relative; }
+  .main section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none; }
+    .main section .scroller {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0; }
+
+#small {
+  display: block; }
+
+.con {
+  width: 100%;
+  padding: .18rem .2rem;
+  box-sizing: border-box;
+  border-bottom: .14rem solid #ccc; }
+  .con h2 {
+    height: .48rem;
+    line-height: .48rem;
+    font-size: .32rem; }
+    .con h2 span {
+      margin-left: 5%;
+      font-size: .2rem;
+      padding: .01rem .08rem;
+      border: 1px solid #FFB801;
+      border-radius: .08rem;
+      color: #FFB801; }
+  .con ul {
+    display: -webkit-flex;
+    position: relative; }
+    .con ul li {
+      margin-right: 18%;
+      text-align: center; }
+    .con ul span {
+      position: absolute;
+      right: 0;
+      padding: .04rem .06rem;
+      border: 1px solid #3BB7FF;
+      color: #3BB7FF; }
+  .con .red {
+    color: red;
+    font-size: .25rem; }
+  .con p {
+    line-height: .52rem; }
+
+.img {
+  width: 100%; }
+  .img img {
+    width: 100%; }
+
+/************************licaikepu*****************************/
+.con_licai {
+  width: 100%;
+  padding: .18rem .2rem;
+  box-sizing: border-box;
+  border-bottom: .14rem solid #ccc; }
+  .con_licai h2 {
+    font-size: .34rem; }
+  .con_licai div {
+    width: 100%;
+    margin-top: .2rem; }
+    .con_licai div span {
+      width: .5rem;
+      height: .5rem;
+      display: inline-block;
+      margin-right: 8%; }
+      .con_licai div span img {
+        width: 100%; }
+    .con_licai div small {
+      float: right; }
+
+.title_h3 {
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  padding-left: .20rem;
+  font-size: .34rem;
+  border-bottom: 1px solid blue; }
+
+.list_licai {
+  width: 100%;
+  padding: .12rem;
+  display: -webkit-flex;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc; }
+  .list_licai dl {
+    width: 20%; }
+    .list_licai dl dt {
+      width: 50%; }
+      .list_licai dl dt img {
+        width: 100%; }
+  .list_licai div {
+    width: 80%; }
+    .list_licai div p {
+      line-height: .44rem; }
+    .list_licai div span {
+      float: right;
+      line-height: .34rem; }
+      .list_licai div span b img {
+        width: .3rem;
+        height: .3rem; }
+
+/*# sourceMappingURL=licai.css.map */

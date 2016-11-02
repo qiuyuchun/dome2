@@ -1,0 +1,89 @@
+
+	<div class="container" id='container'>
+		<header class="header">
+			<span class='left' ui-sref='index'>&#xf053;</span>
+			<h1 class='h1'>我的</h1>
+			<span class='right_me'>签到</span>
+		</header>
+		<main class="main" id='main' mine-s>
+			<div class="scroller">
+				<div class='me_top'>
+					<dl>
+						<dt><img src="img/me9.jpg"></dt>
+						<dd>资产总额（元）</dd>
+						<dd>100,000.00</dd>
+					</dl>
+					<div>
+						<h3><b>郝小琴</b>女士</h3>
+						<p>当前可用积分：560分</p>
+						<p>当前纯利息：1260元</p>
+						<p>当前利率：1.53%</p>
+						<p>当前可用余额：6000元</p>
+					</div>
+				</div>
+				<nav class='me_nav'>
+					<span class='tixian' ui-sref='tixian'>提现</span>|<span class='chongzhi' ui-sref='chongzhi'>充值</span>|<span class='touzi' ui-sref='touzi'>投资</span>
+				</nav>
+				<ul class='me_list'>
+					<li><img src="img/me1.png"></li>
+					<li><img src="img/me2.png"></li>
+					<li class='mine_set' ui-sref='mine_set'><img src="img/me3.png"></li>
+					<li class='mine_account' ui-sref='mine_account'><img src="img/me4.png"></li>
+					<li class='mine_shop' ui-sref='mine_shop'><img src="img/me5.png"></li>
+					<li><img src="img/me6.png"></li>
+					<li><img src="img/me7.png"></li>
+					<li class='mine_game' ui-sref='mine_game'><img src="img/me8.png"></li>
+				</ul>
+			</div>		
+		</main>
+		<footer class="footer">
+			<a ui-sref="index"><br>首页</a>
+			<a ui-sref="licai"><br>理财铺</a>
+			<a ui-sref="shenghuo"><br>生活</a>
+			<a ui-sref="mine" class='on'><br>我的</a>
+		</footer>
+	</div>
+
+
+<!-- 	<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+'px';
+
+	var mainScroll=new IScroll('#main');
+
+	$('.footer').on('tap','a',function(){
+		$(this).addClass('on').siblings().removeClass('on');
+	})
+
+	$('.left').on('tap',function(){
+		location.href='index.html';
+	})
+
+	$('.tixian').on('tap',function(){
+		location.href='html/tixian.html';
+	})
+
+	$('.chongzhi').on('tap',function(){
+		location.href='html/chongzhi.html';
+	})
+
+	$('.touzi').on('tap',function(){
+		location.href='html/touzi.html';
+	})
+
+	$('.mine_set').on('tap',function(){
+		location.href='html/mine_set.html';
+	})
+
+	$('.mine_account').on('tap',function(){
+		location.href='html/mine_account.html';
+	})
+
+	$('.mine_game').on('tap',function(){
+		location.href='html/mine_game.html';
+	})
+
+	$('.mine_shop').on('tap',function(){
+		location.href='html/mine_shop.html';
+	})
+</script>
+ -->

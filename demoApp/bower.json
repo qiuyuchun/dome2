@@ -1,0 +1,22 @@
+{
+  "name": "demoApp",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/js"
+  ],
+  "devDependencies": {
+    "angular-ui-router": "^0.3.1",
+    "oclazyload": "^1.0.9"
+  },
+  "authors": [
+    "qiuyuchun <18538251657@163.com>"
+  ]
+}

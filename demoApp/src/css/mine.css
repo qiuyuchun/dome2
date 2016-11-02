@@ -1,0 +1,339 @@
+/*******************************************mine.html******************************************/
+.right_me{
+ 		position:absolute;
+ 		top:.27rem;
+ 		right:.34rem;		
+ 		font-family:'iconfont';
+ }
+ .me_top{
+ 	width:100%;
+ 	height:2.7rem;
+ 	background: #59B3B5;
+ 	display: -webkit-flex;
+ 	color:#fff;
+ }
+ .me_top dl{
+ 	width:50%;
+ 	height: 100%;
+ 	text-align: center;
+ 	padding:.14rem;
+ 	box-sizing:border-box;
+
+ }
+ .me_top dl dd{
+ 	line-height: .38rem;
+ }
+ .me_top dl dt img{
+ 	width:1.7rem;
+ }
+ .me_top div h3{line-height: .9rem;}
+ .me_top div b{
+ 	font-size: .32rem;
+ 	
+ }
+ .me_top div p{
+	line-height: .4rem;
+ }
+ .me_nav{
+ 	width:100%;
+ 	height:.66rem;
+ 	background: #FFB801;
+ 	color:#fff;
+ 	display:-webkit-flex;
+ 	line-height: .66rem;
+ }
+ .me_nav  span{
+ 	-webkit-flex:1;
+ 	text-align: center;
+ 	font-size: .34rem;
+ 	color: #fff;
+ }
+
+
+ .me_list{
+ 	width:100%;
+ 	display: -webkit-flex;
+ 	-webkit-flex-wrap:wrap;
+ 	padding:.35rem 0;
+ 	background: #EBEBEB;
+
+ }
+ .me_list li{
+ 	width:33.33%;
+ 	padding: .3rem;
+ 	box-sizing:border-box;
+ }
+ .me_list li img{width: 100%;}
+
+/*************************************mine.html    tixian******************************************/
+
+/* .main{
+	background: #EBEBEB;
+} */
+.header .red{color:red;}
+.tixian_h3{
+	height:.66rem;
+	width:100%;
+	background: #59B3B5;
+	line-height: .66rem;
+	color: #fff;
+	text-align: center;
+}
+.tixian_list{
+	width:100%;
+	background: #fff;
+	margin-bottom:.18rem;
+
+}
+.tixian_list li{
+	width:100%;
+	height:.9rem;
+	line-height: .89rem;
+	border-bottom: 1px solid #ccc;
+	padding:0 .2rem;
+	box-sizing:border-box;
+	display: -webkit-flex;
+	position: relative;
+}
+.tixian_list li b{
+	width:30%;
+}
+.tixian_list li span input{
+	border: 0;
+
+}
+.tixian_list li small{
+	position: absolute;
+	right:0;
+	color:blue;
+	font-size: .13rem;
+}
+.guizhe{
+	width:100%;
+	padding:0 .2rem; 
+	font-family: 'iconfnt';
+	margin: .3rem 0;
+}
+.guizhe img{
+	width:.26rem;
+	height:.26rem;
+	vertical-align: middle;
+}
+.guizhe span{
+	text-decoration: underline;
+	font-size: .12rem;
+}
+.guizhe b{
+	color: red;
+	font-size:.26rem ;
+}
+
+/*******************************************mine.html  chongzhi**************************************/
+.chongzhi_con{
+	width:100%;
+	padding: 0 .24rem;
+	margin-top: .5rem;
+	box-sizing:border-box;
+}
+.chongzhi_con p{
+	line-height: .4rem;
+}
+.chongzhi_con p b{
+	color: blue;
+}
+
+
+
+/*******************************************mine.html  mine_set**************************************/
+
+.set_top{
+	width:100%;
+	height:1.9rem;
+	background: #59B3B5;
+	display: -webkit-flex;
+	-webkit-align-items:center;
+	padding:.2rem;
+	box-sizing:border-box;
+	color:#fff;
+}
+.set_top li:nth-of-type(1){
+	width:30%;
+}
+.set_top li:nth-of-type(1) img,.set_top li:nth-of-type(3) img{
+	width:60%;
+}
+.set_top li:nth-of-type(2){
+	width:65%;
+}
+
+.set_list{
+	width:100%;
+	background: #fff;
+	border-bottom: .14rem solid #eee;
+}
+.set_list li{
+	width:100%;
+	padding:0 .7rem 0 .2rem;
+	height:.9rem;
+	line-height: .9rem;
+	border-bottom:1px solid #ccc;
+	box-sizing:border-box;
+	position: relative;
+}
+.set_list li span{
+		float: right;
+}
+
+.set_list li img{
+		width:.18rem;
+		height: .32rem;
+		position: absolute;
+		right:.4rem;
+		top:0;
+		bottom:0;
+		margin:auto 0;
+}
+
+
+/********************************mine.htnl mine_set about.html*********************************/
+
+.about_h2{
+	width:100%;
+	height:.72rem;
+	line-height: .72rem;
+	background: #59B3B5;
+	color:#fff;
+	padding:0 .3rem;
+	box-sizing:border-box;
+}
+.about_con{
+	width:100%;
+	padding:.32rem .22rem;
+	box-sizing:border-box;
+	line-height: .4rem;
+	text-indent: 4em;
+}
+.img{
+	width:100%;
+}
+.img img{
+	width:100%;
+}
+
+
+/********************************mine.htnl mine_set bankcard.html*********************************/
+
+.bank_h4{
+	line-height: .6rem;
+	text-align: center;
+}
+.bankcard_list{
+	width:100%;	
+	padding:.1rem 0 ;
+}
+.bankcard_list li{
+	width:100%;	
+	padding:.1rem .2rem;
+	box-sizing:border-box;
+}
+.bankcard_list li img{
+	width:100%;	
+}
+
+/********************************mine.htnl mine_set mine_account.html*********************************/
+.acc_h2{
+	width:100%;
+	height:.7rem;
+	background: #59B3B5;
+	color:#fff;
+	padding:0 .28rem;
+	box-sizing:border-box;
+	line-height: .7rem;
+	border-bottom: 1px solid #ccc;
+}
+.acc_h2 span{
+	float:right;
+}
+.acc_list{
+	width: 100%;
+	
+	background: #fff;
+}
+
+.acc_list li{
+	padding:0 .2rem;
+	width:100%;
+	height:1rem;
+	line-height: .5rem;
+	display:-webkit-flex;
+	border-bottom: 1px solid #ccc;
+}
+.acc_list li b{
+	color:#D43333;
+}
+.acc_list li span:nth-of-type(1){
+	width:40%;
+}
+/********************************mine.htnl mine_game.html*********************************/
+.game_list{
+	width:100%;	
+}
+.game_list dl{
+	width:100%;	
+	height:.1.3rem;
+	display: -webkit-flex;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+.game_list dl dt{
+	width:1.36rem;
+	padding:.24rem;
+	box-sizing:border-box;
+}
+.game_list dl dt img{
+		width:100%;
+}
+.game_list dl dd h3{
+		font-size: .32rem;
+		line-height: .8rem;
+}
+.game_list dl dd p{
+		color:#A2A2A2;
+}
+
+/********************************mine.htnl mine_shop.html*********************************/
+.main_shop{
+	background: #fff;
+}
+.shop_h1{
+	font-size: .32rem;
+	padding:0 .2rem;
+	margin-top:.14rem;
+	line-height: .5rem;
+}
+
+.shop_list{
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-flex-wrap:wrap;
+}
+.shop_list dl{
+	width:33.33%;
+	padding:.14rem  .3rem 0;
+	box-sizing:border-box;
+}
+.shop_list dl dt img{width:100%;} 
+.shop_list dl dd{text-align: center;} 
+.shop_list dl dd p{line-height: .36rem;} 
+.shop_list dl dd b{color: red;} 
+
+
+
+
+
+
+
+
+
+
+

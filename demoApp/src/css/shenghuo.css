@@ -1,0 +1,132 @@
+.shenghuo{
+	background: #fff
+}
+.swiper-container .pagination{
+		position:absolute;
+		bottom:.25rem;
+		left:0;
+		right:0;
+		margin:0 auto;
+		width:.68rem;
+		height:.2rem;
+		//background:red;
+		display:-webkit-flex;
+}
+.swiper-container .pagination span{
+		//-webkit-flex:1;
+		display:inline-black;
+		width:.2rem;
+		height:.2rem;
+		border-radius:50%;
+		background:#fff;
+		margin-right:0.14rem;
+	} 
+	
+.swiper-container .pagination .swiper-active-switch{
+	background: red;
+}
+.sh_nav{
+	display:-webkit-flex;
+	-webkit-flex-wrap:wrap;
+	box-sizing:content-box;
+	border-bottom: .5rem solid #ccc;
+}
+.sh_nav dl{
+	box-sizing:border-box;
+	width:25%;
+	height: 1.92rem;
+	border-right:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+	padding:.2rem;
+	text-align: center;
+}
+
+.sh_nav dl dt{
+	width:100%;
+	height:80%;
+	-webkit-align-items:center;
+}
+
+.sh_nav dl dd{
+	
+	width:100%;
+	line-height: .36rem;
+}
+
+ .sh_nav dl dt img{
+	width:50%;	
+}
+	 
+ .img{
+	
+	width:100%;
+}
+.img img{
+		width:100%;
+}
+
+/**************************shenghuo_chongzhi.html**************************************/
+
+.chongzhi_nav{
+	width: 100%;
+	height:.8rem;
+	line-height: .8rem;
+	display:-webkit-flex;
+	position: relative;
+	font-size: .28rem;
+}
+.chongzhi_nav span{
+	-webkit-flex:1;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+.haoma{
+	margin-top: .2rem;
+	display: -webkit-box;
+	padding: .1rem .3rem;
+	-webkit-box-pack:justify;
+}
+.haoma p{
+	font-size: .28rem;
+	-webkit-flex:1;
+}
+.haoma span img{
+	width: .63rem;
+	height:.63rem;
+}
+.chongzhi_con{
+	width: 100%;
+}
+
+.huafei,.liuliang{
+	width:100%;
+	display:-webkit-flex;
+	-webkit-flex-wrap:wrap;
+	-webkit-justify-content:space-between;
+	box-sizing:border-box;
+	padding:.2rem;
+}
+.huafei li,.liuliang li{
+	width:2.2rem;
+	padding:.3rem 0;
+	text-align: center;
+	border:1px solid blue;
+	margin: .2rem 0;
+	border-radius: .2rem;
+	box-sizing:border-box;
+}
+.huafei li b,.liuliang li b{
+	font-size: .26rem;
+	font-weight: bold;
+}
+.last{
+	visibility: hidden;
+}
+.on{
+	border-bottom-color: red;
+}
+
+/* .liuliang{
+	display: none;
+}
+ */

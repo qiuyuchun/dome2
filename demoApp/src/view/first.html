@@ -1,0 +1,20 @@
+<div id='container' class='container' ng-controller='first'>
+		<header class="header">
+			<span class='left'><img src="img/ling.png" alt=""></span>
+			<h1 class='h1'>首页</h1>
+			<span class='right'></span>
+		</header>
+		<main class="main" id='main'>
+			<div class="scroller" ui-view>
+				
+			</div>		
+		</main>
+		<footer class="footer" ng-controller='footer'>
+			
+			<a ui-sref="index" class='on'><br>首页</a>
+			<a ui-sref="index.licai"><br>理财铺</a>
+			<a ui-sref="index.shenghuo"><br>生活</a>
+			<a ui-sref="index.mine"><br>我的</a>
+		</footer>
+</div>
+

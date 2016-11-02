@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title><%=title%></title>
+</head>
+<body>
+
+	<!-- 
+		=   转义输出
+	 -->
+	这是product.ejs页面
+	
+	<% data.forEach(function(value){ %>
+		<p><%=value.name%> <span><%=value.age%> </span> </p>
+	<% }) %>
+	
+</body>
+</html>
